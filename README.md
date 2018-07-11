@@ -11,7 +11,7 @@ http://120.0.0.1:8000/
 http://120.0.0.1:8000/health
 http://120.0.0.1:8000/metadata
 
-To run the test suits:
+To run the tests:
 (from within the container)
 python3 manage.py test
 
