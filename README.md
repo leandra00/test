@@ -17,6 +17,5 @@ python3 manage.py test
 
 
 
-
 Risks with application/deployment:
 Need a proper webserver when going to prod. (Don't use the django development one.)
