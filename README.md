@@ -19,5 +19,6 @@ To run the tests:
 
 
 ## Risks with application/deployment:
-* Need a proper webserver when going to prod. (Don't use the django development one.)
-* The pipeline should be building the docker container and running the tests from said container.
+* The app needs a proper webserver when going to prod. (Not the django default one, which is only intended for development.)
+* In the pipeline, a docker push to somewhere appropriate after the build would be a good idea.
+* Version number and description are hard coded in the metadata response. This could be more elegantly implemented using a manifest file perhaps. Or versioning using git branches/tags.
